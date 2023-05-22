@@ -3,6 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -91,5 +92,7 @@ export default function Home() {
         </a>
       </div>
     </main>
+=======
+>>>>>>> 688054a (feat: first commmit)
   )
 }
