@@ -2,6 +2,7 @@
 import { styled } from "styled-components"
 import { Saira_Stencil_One } from 'next/font/google'
 import { PrimaryInputWithSearchIcon } from "./primary-input"
+import { BuyCartIcon } from "./buy-cart"
 
 const sairaStencilOne = Saira_Stencil_One({
  weight: ['400'],
@@ -30,6 +31,7 @@ export function Header() {
     <div>
      <PrimaryInputWithSearchIcon/>
     </div>
+    <BuyCartIcon />
   </TagHeader>
  )
 }
