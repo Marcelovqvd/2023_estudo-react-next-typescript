@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Header } from '@/components/header'
 
 export default function Home() {
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <main className={styles.main}>
       <div className={styles.description}>
@@ -94,5 +96,8 @@ export default function Home() {
     </main>
 =======
 >>>>>>> 688054a (feat: first commmit)
+=======
+    <Header />
+>>>>>>> d0f1b12 (feat: header)
   )
 }
