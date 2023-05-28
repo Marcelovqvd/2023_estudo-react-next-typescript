@@ -18,6 +18,7 @@ export const PrimaryInput = styled.input`
 const InputContainer = styled.div`
  position: relative;
  width: 352px;
+ margin-right: 27px;
 
  svg {
   position: absolute;
@@ -30,7 +31,7 @@ const InputContainer = styled.div`
 export function PrimaryInputWithSearchIcon() {
   return (
    <InputContainer>
-    <PrimaryInput placeholder="Procura algo específico?" />
+    <PrimaryInput />
     <SearchIcon />
    </InputContainer>
   )

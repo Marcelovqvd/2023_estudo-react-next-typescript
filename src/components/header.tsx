@@ -23,15 +23,20 @@ const Logo = styled.a`
  line-height: 150%;
 `
 
+const InputHeader = styled.div`
+ display: flex;
+ align-items: center;
+`
+
 export function Header() {
 
  return (
    <TagHeader>
     <Logo className={sairaStencilOne.className}>Caputeeno</Logo>
-    <div>
-     <PrimaryInputWithSearchIcon/>
-    </div>
-    <CartIcon />
+    <InputHeader>
+      <PrimaryInputWithSearchIcon placeholder="Procura algo específico?" />
+      <CartIcon />
+    </InputHeader>
   </TagHeader>
  )
 }
