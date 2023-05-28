@@ -24,12 +24,11 @@ const Logo = styled.a`
 `
 
 export function Header() {
-
  return (
    <TagHeader>
     <Logo className={sairaStencilOne.className}>Caputeeno</Logo>
     <div>
-     <PrimaryInputWithSearchIcon/>
+     <PrimaryInputWithSearchIcon placeholder="Procura algo específico?"/>
     </div>
     <CartIcon />
   </TagHeader>
