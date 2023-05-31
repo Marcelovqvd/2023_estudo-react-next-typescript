@@ -29,7 +29,6 @@ const InputHeader = styled.div`
 `
 
 export function Header() {
-
  return (
    <TagHeader>
     <Logo className={sairaStencilOne.className}>Caputeeno</Logo>
